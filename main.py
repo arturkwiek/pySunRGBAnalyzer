@@ -10,7 +10,7 @@ def remove_label_convert_int(value):
     return int(value.split(': ')[1])
 
 # Ścieżka do pliku CSV z danymi
-file_path = "2024_06_12.csv"
+file_path = "2024_06_10.csv"
 
 # Wczytanie danych, stosując funkcję konwersji do odpowiednich kolumn
 data = pd.read_csv(
